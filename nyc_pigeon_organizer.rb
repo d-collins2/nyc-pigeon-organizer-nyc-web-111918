@@ -9,7 +9,10 @@ def nyc_pigeon_organizer(data)
           list[el] = Hash.new 
         end 
         unless data_type == :color 
-          list[el][data_type] = [selection]
+          if selection.is_a?(Symbol)
+            selection.to_s 
+            list[el][data_type] = [selection]
+          end 
         end 
       end 
      
