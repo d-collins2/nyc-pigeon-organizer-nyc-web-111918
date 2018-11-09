@@ -10,7 +10,7 @@ def nyc_pigeon_organizer(data)
         end 
         unless data_type == :color 
           list[el][data_type] = [selection.to_s]
-        else 
+        elsif data_type
           
         end 
       end 
