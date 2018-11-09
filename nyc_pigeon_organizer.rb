@@ -8,9 +8,9 @@ def nyc_pigeon_organizer(data)
         unless list.include?(el)
           list[el] = Hash.new 
         end 
-        unless data_type == :color 
+        if  list[el][data_type] == nil  
           list[el][data_type] = [selection.to_s]
-        elsif  list[el][data_type] == nil 
+        else
            list[el][data_type] = 
           
         end 
