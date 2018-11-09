@@ -8,6 +8,7 @@ def nyc_pigeon_organizer(data)
         unless list.include?(el)
           list[el] = Hash.new 
         end 
+        if 
         list[el][data_type] = []
       end 
      
