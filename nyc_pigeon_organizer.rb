@@ -10,8 +10,9 @@ def nyc_pigeon_organizer(data)
         end 
         list[el][data_type] = []
       end 
-      binding.pry
+     
     end 
   end 
+  binding.pry
   list 
 end
