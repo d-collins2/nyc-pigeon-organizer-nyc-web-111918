@@ -9,8 +9,8 @@ def nyc_pigeon_organizer(data)
           list[el] = Hash.new 
         end 
         list[el][data_type] = []
-        binding.pry
       end 
+      binding.pry
     end 
   end 
   list 
