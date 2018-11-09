@@ -6,6 +6,7 @@ def nyc_pigeon_organizer(data)
     data_name.each do |selection, name|
       name.each do |el|
         list[el] = data_type
+        el[data_type] = []
         binding.pry
       end 
     end 
