@@ -4,6 +4,7 @@ def nyc_pigeon_organizer(data)
   list = Hash.new
   data.each do |data_type, data_name|
     data_name.each do |selection, name|
+      list[name][data_type] = []
       binding.pry
     end 
   end 
