@@ -15,9 +15,7 @@ def nyc_pigeon_organizer(data)
            list[el][data_type] << selection.to_s 
         end 
       end 
-     
     end 
-  end 
-  binding.pry
+  end
   list 
 end
