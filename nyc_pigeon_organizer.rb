@@ -11,8 +11,8 @@ def nyc_pigeon_organizer(data)
         unless data_type == :color 
           if selection.is_a?(Symbol)
             selection.to_s 
-            list[el][data_type] = [selection]
           end 
+          list[el][data_type] = [selection]
         end 
       end 
      
